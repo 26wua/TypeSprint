@@ -282,7 +282,7 @@ export default function TypingGame() {
             value={gameState.userInput}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            disabled={!gameState.isActive && !gameState.isCompleted && gameState.userInput.length === 0}
+            disabled={gameState.isCompleted}
             placeholder="Start typing here..."
           />
 

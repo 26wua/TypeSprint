@@ -30,7 +30,7 @@ const TypingInput = forwardRef<HTMLTextAreaElement, TypingInputProps>(
         <div className="text-center mb-4">
           <p className="text-muted-foreground text-sm">
             {disabled 
-              ? "Click 'Start Game' to begin typing" 
+              ? "Game completed! Check your results or start a new game." 
               : "Start typing to begin the 60-second challenge!"
             }
           </p>
